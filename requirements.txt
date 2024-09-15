@@ -1,0 +1,19 @@
+# upgrade pip
+pip
+
+# development libs
+flake8
+isort
+pytest
+
+# deps
+ipython
+jupyterlab
+numpy
+scikit-learn
+pandas
+matplotlib
+seaborn
+bokeh
+plotly
+streamlit

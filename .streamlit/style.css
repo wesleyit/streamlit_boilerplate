@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #666666;
+    --background-color: #FFFFFF;
+    --secondary-background-color: #D5D5EA;
+    --text-color: #333366;
+    --base-font: "Cantarell";
+    --base-font-size: 12pt;
+    --header-font: "C059";
+    --mono-font: "Agave Nerd Font Mono";
+}
+
+html, body, * {
+    font-family: var(--base-font); 
+    font-size: var(--base-font-size);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font);
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+table, table *{
+    font-family: var(--mono-font);
+    font-size: 10pt;
+}
+
+table th, table thead {
+    font-weight: bold;
+    background-color: var(--secondary-background-color);
+}
+
+code, pre, tt, code *, pre *, tt * {
+    font-family: var(--mono-font);
+}
